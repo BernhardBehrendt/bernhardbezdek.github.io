@@ -1,14 +1,18 @@
 {
-  "representation": "br",
-  "spec": "HTML 1",
-  "closed": false,
-  "description": "Line break",
-  "hints": "dsf sd8zfg dsaofg adso8zfgasd ofzadgs figsdt",
+  "name": "br",
+  "category": "BASIC|FORMATTING|FORMS|FRAMES|IMAGES|MULTIMEDIA|LINKS|LISTS|TABLES|SEMANTICS|META|PROGRAMMING",
+  "deprecated": "",
+  "alternatives": [],
+  "representation": "",
+  "spec": "HTML 5",
+  "closed": true,
+  "description": "",
+  "hints": "",
   "example": "",
   "support": {
-    "Chrome": "FROMVERSION",
-    "Firefox": "FROMVERSION",
-    "IE": "FROMVERSION",
-    "Opera": "FROMVERSION"
+    "Chrome": "1.0.0",
+    "Firefox": "1.0.0",
+    "IE": "1.0.0",
+    "Opera": "1.0.0"
   }
 }

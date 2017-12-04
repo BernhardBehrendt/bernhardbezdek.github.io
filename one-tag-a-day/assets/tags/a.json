@@ -1,14 +1,157 @@
 {
-  "representation": "a",
+  "name": "a",
+  "category": "LINKS",
+  "deprecated": false,
+  "alternatives": [
+    "nav"
+  ],
+  "representation": "<a>LINK</a>",
   "spec": "HTML 1",
   "closed": true,
-  "description": "To link on resources this tag is recommended",
-  "hints": "Dont use it for interaction elements which dont really link to a physical resource due to event.PRevent default",
-  "example": "<a href=\"https://link-to-somewhere.com/index.html\">CLICK ME</a>",
+  "description": "Set references to another resource",
+  "hints": "I recommend to avoid the usage with interactive elements due to eventPrevent default requirement to avoid a changing url",
+  "attributes": [
+    {
+      "name": "download",
+      "notices": [
+        "Specifies that the target will be downloaded when a user clicks on the hyperlink"
+      ]
+    },
+    {
+      "name": "href",
+      "values": [
+        {
+          "value": "Absolute URI",
+          "description": "An fully qualified url where to go"
+        },
+        {
+          "value": "relative URI",
+          "description": "A relative url which is also affectet by the base href"
+        }
+      ]
+    },
+    {
+      "name": "hreflang",
+      "values": [
+        {
+          "value": "Absolute URI",
+          "description": "An fully qualified url where to go"
+        }
+      ],
+      "notices": [
+        "Specifies the language of the linked document"
+      ]
+    },
+    {
+      "name": "media",
+      "values": [
+        {
+          "value": "media query",
+          "description": "a media query example"
+        }
+      ],
+      "notices": "Specifies the language of the linked document"
+    },
+    {
+      "name": "rel",
+      "values": [
+        {
+          "value": "alternate",
+          "description": ""
+        },
+        {
+          "value": "author",
+          "description": ""
+        },
+        {
+          "value": "bookmark",
+          "description": ""
+        },
+        {
+          "value": "external",
+          "description": ""
+        },
+        {
+          "value": "help",
+          "description": ""
+        },
+        {
+          "value": "license",
+          "description": ""
+        },
+        {
+          "value": "next",
+          "description": ""
+        },
+        {
+          "value": "nofollow",
+          "description": "Tells a search engine not to follow this resource"
+        },
+        {
+          "value": "noreferrer",
+          "description": ""
+        },
+        {
+          "value": "noopener",
+          "description": ""
+        },
+        {
+          "value": "prev",
+          "description": ""
+        },
+        {
+          "value": "search",
+          "description": ""
+        },
+        {
+          "value": "tag",
+          "description": ""
+        }
+      ],
+      "notices": ""
+    },
+    {
+      "name": "target",
+      "values": [
+        {
+          "value": "_blank",
+          "description": "Opens the resource in a new window/tab"
+        },
+        {
+          "value": "_parent",
+          "description": "Opens the resource in a new window/tab"
+        },
+        {
+          "value": "_self",
+          "description": "Le the browser decide what to do"
+        },
+        {
+          "value": "_top",
+          "description": "Le the browser decide what to do"
+        },
+        {
+          "value": "framename",
+          "description": "Le the browser decide what to do"
+        }
+      ],
+      "notices": ""
+    },
+    {
+      "name": "type",
+      "values": [
+        {
+          "value": "audio/mpeg4",
+          "description": "The media type of the linked resource"
+        }
+      ],
+      "notice": "Specifies the media type of the linked document"
+    }
+  ],
+  "example": "",
   "support": {
-    "Chrome": "FROMVERSION",
-    "Firefox": "FROMVERSION",
-    "IE": "FROMVERSION",
-    "Opera": "FROMVERSION"
+    "Chrome": "1.0.0",
+    "Firefox": "1.0.0",
+    "IE": "1.0.0",
+    "Opera": "1.0.0"
   }
 }

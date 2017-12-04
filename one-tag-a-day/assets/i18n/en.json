@@ -1,18 +1,3 @@
 {
-  "ADD": "Add",
-  "EDIT": "Edit",
-  "SAVE": "Save",
-  "DISCARD": "Discard",
-  "REMOVE": "Remove",
-  "COMPONENTS": {
-    "EXAMPLE": {
-      "HEADLINE": "Details"
-    }
-  },
-  "MODELS": {
-    "EXAMPLE": {
-      "NAME": "Name",
-      "DESCRIPTION": "Description"
-    }
-  }
+
 }
