@@ -1,0 +1,14 @@
+{
+  "representation": "br",
+  "spec": "HTML 1",
+  "closed": false,
+  "description": "Line break",
+  "hints": "dsf sd8zfg dsaofg adso8zfgasd ofzadgs figsdt",
+  "example": "",
+  "support": {
+    "Chrome": "FROMVERSION",
+    "Firefox": "FROMVERSION",
+    "IE": "FROMVERSION",
+    "Opera": "FROMVERSION"
+  }
+}

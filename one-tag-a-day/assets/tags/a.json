@@ -1,0 +1,14 @@
+{
+  "representation": "a",
+  "spec": "HTML 1",
+  "closed": true,
+  "description": "To link on resources this tag is recommended",
+  "hints": "Dont use it for interaction elements which dont really link to a physical resource due to event.PRevent default",
+  "example": "<a href=\"https://link-to-somewhere.com/index.html\">CLICK ME</a>",
+  "support": {
+    "Chrome": "FROMVERSION",
+    "Firefox": "FROMVERSION",
+    "IE": "FROMVERSION",
+    "Opera": "FROMVERSION"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "representation": "",
+  "spec": "HTML 5",
+  "closed": true,
+  "description": "",
+  "hints": "",
+  "example": "",
+  "support": {
+    "Chrome": "FROMVERSION",
+    "Firefox": "FROMVERSION",
+    "IE": "FROMVERSION",
+    "Opera": "FROMVERSION"
+  }
+}
