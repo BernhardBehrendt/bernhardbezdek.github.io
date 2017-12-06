@@ -3,7 +3,8 @@
   "category": "LINKS",
   "deprecated": false,
   "alternatives": [
-    "nav"
+    "nav",
+    "br"
   ],
   "representation": "<a>LINK</a>",
   "spec": "HTML 1",
@@ -50,7 +51,9 @@
           "description": "a media query example"
         }
       ],
-      "notices": "Specifies the language of the linked document"
+      "notices": [
+        "Specifies the language of the linked document"
+      ]
     },
     {
       "name": "rel",
