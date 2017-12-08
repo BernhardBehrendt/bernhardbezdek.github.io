@@ -1,4 +1,10 @@
 [
   "tags/a.json",
-  "tags/br.json"
+  "tags/br.json",
+  "tags/h1.json",
+  "tags/h2.json",
+  "tags/h3.json",
+  "tags/h4.json",
+  "tags/h5.json",
+  "tags/h6.json"
 ]
