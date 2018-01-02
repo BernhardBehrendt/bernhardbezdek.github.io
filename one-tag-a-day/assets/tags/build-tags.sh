@@ -3,7 +3,7 @@ TEMPLATE=$(cat template.json)
 
 echo $TEMPLATE > comment.json
 echo $TEMPLATE > doctype.json
-echo $TEMPLATE > a.json
+#echo $TEMPLATE > a.json
 echo $TEMPLATE > abbr.json
 echo $TEMPLATE > acronym.json
 echo $TEMPLATE > address.json
@@ -20,7 +20,7 @@ echo $TEMPLATE > bdo.json
 echo $TEMPLATE > big.json
 echo $TEMPLATE > blockquote.json
 echo $TEMPLATE > body.json
-echo $TEMPLATE > br.json
+#echo $TEMPLATE > br.json
 echo $TEMPLATE > button.json
 echo $TEMPLATE > canvas.json
 echo $TEMPLATE > caption.json

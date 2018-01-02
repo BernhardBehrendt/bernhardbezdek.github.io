@@ -1,0 +1,123 @@
+[
+  {
+    "name": "accesskey",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "one char out of utf-8 set",
+        "description": "Make an element accessible via shortcut. This element consists of a space-separated list of characters.",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey"
+      }
+    ]
+  },
+  {
+    "name": "class",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "someClass and-another-class",
+        "description": "Make an element accessible via shortcut. This element consists of a space-separated list of characters.",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class"
+      }
+    ]
+  },
+  {
+    "name": "contextmenu",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "id",
+        "description": "If the id of an :menu is given to use as the context menu for this element",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contextmenu"
+      }
+    ]
+  },
+  {
+    "name": "data-*",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "anything",
+        "description": "This element can be used to store proprietary data on HTML elements. E.g. data-username=\"Jhon\"  ",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*"
+      }
+    ]
+  },
+  {
+    "name": "dir",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "ltr|rtl|auto",
+        "description": "Indicates the text flow direction of an element's text. ([ltr=left to right][rtl=right to left][auto=Browser decides how to handle inner text])",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir"
+      }
+    ]
+  },
+  {
+    "name": "draggable",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "true|false",
+        "description": "Determine if the element can be dropped via the Drag&Drop API [true=yes][false=no (default)]",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable"
+      }
+    ]
+  },
+  {
+    "name": "hidden",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "true|false",
+        "description": "Tells the browser not to render an element having the attribute set",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"
+      }
+    ]
+  },
+  {
+    "name": "id",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "unique_identifier",
+        "description": "Defines an identifier which must be unique in th whole document",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"
+      }
+    ]
+  },
+  {
+    "name": "lang",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "language code",
+        "description": "Defines the language of a non editable element or the language editable elements should be written in",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang"
+      }
+    ]
+  },
+  {
+    "name": "style",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "CSS",
+        "description": "Here CSS styles can be applied but it's more recommended to separate concerns and store CSS in dedicated files via :link or using the :style and avoid the use of this element",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style"
+      }
+    ]
+  },
+  {
+    "name": "tabindex",
+    "notices":"can be also an array if multiple notices are necessary",
+    "values": [
+      {
+        "value": "CSS",
+        "description": "Determine if an element can take an input focus b",
+        "see": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex"
+      }
+    ]
+  }
+]
